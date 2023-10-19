@@ -26,7 +26,7 @@ export default function Page() {
 
     return (
         <div className="bg-zinc-100">
-            <header className="w-full sm:min-h-screen flex justify-center items-center">
+            <header className="w-full sm:min-h-screen flex justify-center items-center" id="forms">
                 <div className="w-full max-w-7xl flex flex-col sm:grid sm:grid-cols-2 sm:items-center sm:gap-12 px-4 sm:px-0">
                     <div className="flex flex-col gap-4 pt-6 sm:pt-0">
                         <img src="./images/logo.webp" alt="Logo da Duas Por Uma" className="w-[82px] sm:w-[144px]" />
