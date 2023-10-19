@@ -69,6 +69,11 @@ export default function Page() {
                         </HeroFlex>
                     </div>
                 </Section>
+                <Section bg="bg-my">
+                    <div className="text-left sm:text-center">
+                        <h2 className="text-lg sm:text-xl text-white py-6"><strong>Não permita que os preços altos de passagens te impeçam de visitar a família no Brasil</strong></h2>
+                    </div>
+                </Section>
                 <Section className="py-6 sm:py-12" bg="bg-my3">
                     <div className="w-full flex flex-col gap-12 sm:gap-16">
                         <div>
