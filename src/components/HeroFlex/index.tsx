@@ -13,7 +13,7 @@ export default function HeroFlex({ children, imagePath, reverse, title }: HeroFl
             <div className="flex flex-col gap-2 sm:gap-5 max-w-[520px]">
                 <h2 className="font-bold text-xl sm:text-[30px] sm:leading-10">{title}</h2>
                 { children }
-                <div className="">
+                <div className="mt-4 sm:mt-0">
                     <a href="#forms" className="bg-my text-white px-6 py-3 font-medium text-center rounded-lg sm:rounded-xl">Quero visitar o Brasil quando quiser!</a>
                 </div>
             </div>
