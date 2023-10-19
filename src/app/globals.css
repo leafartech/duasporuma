@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .title {
+        @apply text-my text-[28px] sm:text-[36px] font-bold leading-8 sm:leading-10;
+    }
+    .subtitle {
+        @apply text-zinc-600 font-medium text-sm sm:text-lg leading-6 sm:leading-8;
+    }
+}
+* {
+    font-family: 'Montserrat', sans-serif!important;
+}
+/* html, body {
+    scroll-behavior: smooth;
+} */
+.cap-set {
+    background-image: url('/images/bg.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.und-effect {
+    position: relative;
+    z-index: 1;
+}
+.und-effect::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 18px;
+    width: 100%;
+    background: #76c479;
+    z-index: -1;
+}
+.cap-set h1 {
+    line-height: 44px;
+}
+#_form_6501C818CC6EE_ {
+    background: transparent!important;
+    padding: 0!important;
+    margin: 0!important
+}
+input {
+    border-radius: 999px!important;
+    padding: 7px 32px!important;
+    color: rgb(75, 85, 99)!important;
+    outline: none!important;
+    border: 1px solid rgb(10, 55, 18)!important;
+    font-size: 16px!important;
+    background: transparent!important;
+}
+button[type=submit] {
+    background: rgb(10, 55, 18)!important;
+    color: #fff!important;
+    padding: 12px 0!important;
+    width: 100%;
+    border-radius: 999px!important;
+    font-weight: bold!important;
+    font-family: 'Montserrat'!important;
+    text-transform: uppercase!important;
+    z-index: 100;
+    position: relative
+}
+._form-branding {
+    display: none!important;
+}
+._form > div._form-content :nth-child(6),
+._form > div._form-content :nth-child(5),
+._form > div._form-content :nth-child(4),
+._form > div._form-content :nth-child(3) {
+    opacity: 0!important;
+    position: absolute!important;
+}
+
+
+@media (max-width: 425px) {
+    .cap-set {
+        background-size: cover;
+    }
+    .cap-set h1 {
+        line-height: normal;
+    }
+    button[type=submit] {
+        font-size: 14px!important
+    }
+    form {
+        margin: 0!important;
+        margin-top: 36px!important;
+        padding: 0!important;
+    }
+    ._form-content > div {
+        margin: 0!important;
+        margin-top: 12px!important
+    }
+}
