@@ -142,7 +142,7 @@ export default function Page() {
                 </Section>
                 <Section className="pt-12 sm:py-24">
                     <div className="fle flex-col">
-                        <h2 className="text-2xl sm:text-4xl text-my font-bold text-left sm:text-center">Confira depoimentos de nossas alunas</h2>
+                        <h2 className="text-2xl sm:text-4xl text-my font-bold text-left sm:text-center">Confira depoimentos de quem já está emitindo passagens com pelo menos 50% de desconto</h2>
                         <div className="mt-6 sm:mt-12 flex flex-col sm:flex-row justify-center gap-6 sm:gap-12">
                             <iframe width="315" height="315"
                                 src="https://www.youtube.com/embed/URt9mpMa81Y"
